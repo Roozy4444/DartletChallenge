@@ -1,0 +1,54 @@
+body{
+  background-image: url(https://www.adcisolutions.com/sites/default/files/styles/scale_w2400/public/2020-07/harvard-university-glavnaya-stranica-s-emblemoy-1_0.png?itok=6xMkRLAK);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0px;
+}
+
+.tile{
+  margin-top: 20%;
+  margin-left: 20%;
+  width: 60%;
+  height: 10%;
+  border: 20px solid rgb(199, 12, 52);
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+button{
+  cursor: pointer;
+}
+
+h3{
+  color:rgb(199, 12, 52);
+  padding-bottom: 20px;
+  font-weight: normal;
+}
+
+#lightbox{
+  position: fixed;
+  z-index: 1000;
+  top: 0; 
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0 , 0, .8);
+  display: none;
+}
+
+#lightbox.active{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+}
